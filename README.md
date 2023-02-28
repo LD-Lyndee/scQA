@@ -12,7 +12,7 @@ git clone https://github.com/LD-Lyndee/scQA.git
 cd scQA
 ```
 
-### Make File:
+### Makefile:
 
 ```shell
 ./make
