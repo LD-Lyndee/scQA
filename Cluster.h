@@ -12,7 +12,7 @@
 
 #pragma warning(disable:4996)
 #define _CRT_SECURE_NO_DEPRECATE
-#define _CRT_SECURE_NO_WARNINGS //strcpy¡¢strcat µÈº¯Êı²»°²È«£¬ºöÂÔ¾¯¸æ
+#define _CRT_SECURE_NO_WARNINGS //strcpyã€strcat ç­‰å‡½æ•°ä¸å®‰å…¨ï¼Œå¿½ç•¥è­¦å‘Š
 
 
 using namespace std;
@@ -32,7 +32,7 @@ private:
 	vector<vector<float> >SimScore(char&, int);
 	void SimGraph();
 	void PA();
-
+ 
 public:
 	CC();
 	void Run(vector<vector<int> >&, vector<vector<float> >&);
