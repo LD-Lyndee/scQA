@@ -9,7 +9,7 @@ Installation Tested on a Linux sever.
 
 ```bash
 git clone https://github.com/LD-Lyndee/scQA.git
-  cd scQA
+cd scQA
 ```
 
 ### Make File:
