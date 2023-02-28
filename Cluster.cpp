@@ -322,7 +322,7 @@ vector<vector<float> > CC::SimScore(char& m, int n) {
 					}
 				}
 			}
-			//�Գ�
+			//¶Ô³Æ
 			for (int i = 0; i < NumCell; i++) {
 				for (int j = 0; j < NumCell; j++) {
 					if (i != j) {
@@ -372,7 +372,7 @@ vector<vector<float> > CC::SimScore(char& m, int n) {
 					}
 				}
 			}
-			//�Գ�
+			//¶Ô³Æ
 			for (int i = 0; i < NumCell; i++) {
 				for (int j = 0; j < NumCell; j++) {
 					if (i != j) {
@@ -1221,10 +1221,10 @@ void CC::PA() {
 			}
 		}
 	}
-	FILE* fp = fopen("lab.txt", "wt");
+	FILE* fp = fopen("labels.txt", "wt");
 	if (!fp) {
 		printf("The file was not opened\n");
-		exit(1);//�쳣�˳�
+		exit(1);//Òì³£ÍË³ö
 	}
 	for (int i = 0; i < NumCell; i++) {
 		fprintf(fp, "%d", Label[i]);
